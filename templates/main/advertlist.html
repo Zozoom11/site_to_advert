@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for item in adv %}
+<div id="fff" class="card">
+    <div id="ff2" class="card-header">{{ item.date }}</div>
+    <div class="card-body">
+        <h5 id="ff1" class="card-title">{{ item.title }}</h5>
+        <p class="final">{{ item.text }}</p>
+        <a href="{{ item.get_detailUrl }}" class="btn btn-primary">Подробнее</a>
+    </div>
+</div>
+{% endfor %}
+{% include 'paginator.html' %}
+{% endblock %}
+
+
+

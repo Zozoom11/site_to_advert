@@ -1,0 +1,95 @@
+.reset{
+  padding: 50px;
+  background: #00FFFF;
+  position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#i{
+    background-color: red;
+    font-weight: bold;
+}
+
+.logo{
+  font-family: "Lobster", cursive;
+  background: linear-gradient(45deg, #0000CD 10%,#00CED1,#9400D3,#FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0000CD;
+  display: table;
+  font-size: 35px;
+}
+
+#a:hover{
+    color: red;
+}
+
+#a{
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+    margin-left:30px;
+}
+
+#b:hover{
+    color: red;
+}
+
+#b{
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+
+#c:hover{
+    color: red;
+}
+
+#c{
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+
+#d:hover{
+    color: red;
+}
+
+#d{
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+
+#e{
+    font-style: italic;
+    font-size: 20px;
+}
+
+#create_adv{
+    margin-left:25%;
+}
+
+#fff{
+    background: #383838;
+}
+
+#ff1{
+   color:#f70707;
+   font-style: italic;
+   font-weight: bold;
+}
+
+#ff2{
+   color:#fbff00;
+   font-style: italic;
+   font-weight: bold;
+}
+
+.final{
+   color:#fff;
+   font-style: italic;
+   font-weight: bold;
+}
